@@ -12,7 +12,7 @@ To use this tool, your Steam ID profile must be set to public. Otherwise, the da
 ### From GitHub
 Follow these steps to install and set up the project:
 
-1. Clone the repository:
+1. Clone the repository or download from GitHub web:
     ```bash
     git clone https://github.com/sdkng44/dota2-match-history-parser.git
     cd dota2-match-history-parser
@@ -35,12 +35,37 @@ Follow these steps to install and set up the project:
 ### From npm
 You can also install the package using npm:
 
-1. Install the package:
+1. Create an initial directory and navigate to it:
+    ```bash
+    mkdir dota2-parser-installation
+    cd dota2-parser-installation
+    ```
+
+2. Install the package:
     ```bash
     npm install dota2-match-details-parser
     ```
 
-2. Configure your `config.json` file with your `STEAM_API_KEY` and `STEAM_ID`:
+3. Create a new root directory and move the package contents outside the current root directory:
+    ```bash
+    mkdir ../dota2-match-details
+    cp -r node_modules/dota2-match-details-parser/* ../dota2-match-details/
+    cd ../dota2-match-details
+    ```
+
+4. Remove the previous root installation directory:
+    ```bash
+    cd ..
+    rm -rf dota2-parser-installation
+    ```
+	
+5. Install dependencies in the new directory:
+    ```bash
+    npm install
+    ```
+
+
+6. Configure your `config.json` file with your `STEAM_API_KEY` and `STEAM_ID`:
     ```json
     {
       "steamApiKey": "your_steam_api_key_here",
@@ -49,6 +74,8 @@ You can also install the package using npm:
     ```
 
 
+	
+	
 ## Usage
 To run the project, simply use the following command:
 ```bash
@@ -81,5 +108,4 @@ This project uses the OpenDota API, which has limitations on the number of reque
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
-
 
