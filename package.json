@@ -1,6 +1,6 @@
 {
   "name": "dota2-match-details-parser",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Download Dota 2 match details in CSV and JSON format",
   "main": "dotita2.js",
   "scripts": {
