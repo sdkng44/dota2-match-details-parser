@@ -1,13 +1,23 @@
 {
   "name": "dota2-match-details-parser",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Download Dota 2 match details in CSV and JSON format",
   "main": "dotita2.js",
   "scripts": {
-	"start": "node dotita2.js",
+    "start": "node dotita2.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["dota2", "steam", "nodejs", "json", "csv", "opendota", "statistics", "match", "parser"],
+  "keywords": [
+    "dota2",
+    "steam",
+    "nodejs",
+    "json",
+    "csv",
+    "opendota",
+    "statistics",
+    "match",
+    "parser"
+  ],
   "author": "sdkng44",
   "license": "MIT",
   "repository": {
@@ -21,7 +31,7 @@
     "csv-parser": "^3.0.0",
     "csv-writer": "^1.6.0",
     "i18next": "^23.12.2",
-    "i18next-node-fs-backend": "^2.1.3"
+    "i18next-fs-backend": "^2.3.2"
   },
   "devDependencies": {
     "@eslint/js": "^9.8.0",
@@ -31,3 +41,4 @@
     "prettier": "^3.3.3"
   }
 }
+
