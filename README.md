@@ -9,6 +9,7 @@ To use this tool, your Steam ID profile must be set to public. Otherwise, the da
 
 
 ## Installation
+### From GitHub
 Follow these steps to install and set up the project:
 
 1. Clone the repository:
@@ -23,6 +24,23 @@ Follow these steps to install and set up the project:
     ```
 
 3. Configure your `config.json` file with your `STEAM_API_KEY` and `STEAM_ID`:
+    ```json
+    {
+      "steamApiKey": "your_steam_api_key_here",
+      "steamId": "your_steam_id_here"
+    }
+    ```
+
+
+### From npm
+You can also install the package using npm:
+
+1. Install the package:
+    ```bash
+    npm install dota2-match-details-parser
+    ```
+
+2. Configure your `config.json` file with your `STEAM_API_KEY` and `STEAM_ID`:
     ```json
     {
       "steamApiKey": "your_steam_api_key_here",
@@ -50,10 +68,18 @@ If you encounter issues with displaying characters in your respective language, 
 Note: "SimSun Ext-B" is just one example that has been tested to work with all characters. You can also install other fonts that support your language characters if needed.
 
 
+## Repository and Package
+This project is available on both GitHub and npm:
+
+1. GitHub: https://github.com/sdkng44/dota2-match-history-parser
+2. npm: https://www.npmjs.com/package/dota2-match-details-parser
+
+
 ## API Rate Limits
 This project uses the OpenDota API, which has limitations on the number of requests you can make. Please be aware of these limits to avoid issues with data retrieval.
 
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
+
 
