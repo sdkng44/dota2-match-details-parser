@@ -8,7 +8,7 @@ const createCsvWriter = require('csv-writer').createObjectCsvWriter;
 const config = JSON.parse(fs.readFileSync('config.json', 'utf8'));
 const steamId = config.steamId;
 if (steamId === 'your_steam_id_here') {
-  console.error('Please provide your STEAM_API_KEY and STEAM_ID in the config.json file');
+  console.error('Please provide your STEAM_ID in the config.json file');
   process.exit(1);
 }
 
