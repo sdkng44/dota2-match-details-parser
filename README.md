@@ -52,7 +52,7 @@ You can also install the package using npm:
     npm install dota2-match-details-parser
     ```
 
-3. Create a new root directory and move the package contents outside the current root directory:
+3. Create a new root directory and move the package contents outside the current root directory, then locate yourself in the new root directory:
     ```powershell
     mkdir ../dota2-match-details
     Copy-Item -Recurse node_modules\dota2-match-details-parser\* ../dota2-match-details/
@@ -91,7 +91,7 @@ You can also install the package using npm:
     npm install dota2-match-details-parser
     ```
 
-3. Create a new root directory and move the package contents outside the current root directory:
+3. Create a new root directory and move the package contents outside the current root directory, then locate yourself in the new root directory:
     ```bash
     mkdir ../dota2-match-details
     mv node_modules/dota2-match-details-parser/* ../dota2-match-details/
