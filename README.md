@@ -4,11 +4,17 @@
 `dota2-match-details-parser` is a tool that allows you to download Dota 2 match details in CSV and JSON formats. It uses the OpenDota API to fetch detailed information about matches and provides multilingual support for various languages.
 
 
+## Prerequisites
+- Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
+
+
 ## Important Notice
 To use this tool, your Steam ID profile must be set to public. Otherwise, the data cannot be retrieved.
 
 
 ## Installation
+You can install the project either by cloning the repository from GitHub or by using npm.
+
 ### From GitHub
 Follow these steps to install and set up the project:
 
@@ -29,7 +35,6 @@ Follow these steps to install and set up the project:
       "steamId": "your_steam_id_here"
     }
     ```
-
 
 ### From npm
 You can also install the package using npm:
@@ -112,13 +117,16 @@ You can also install the package using npm:
 
 
 	
-	
 ## Usage
 To run the project, simply use the following command:
 ```bash
 npm start
 ```
 This will start the application and prompt you to select your preferred language. It will then download the Dota 2 match details associated with the provided STEAM_ID.
+
+
+## Continuity of Downloads
+If you run the script and download a certain number of matches, then stop the script and restart it, the tool will look for the previously created files with downloaded matches. It will read the already downloaded matches and continue from where it left off.
 
 
 ## Troubleshooting Language Display Issues
