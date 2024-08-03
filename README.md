@@ -14,8 +14,8 @@ Follow these steps to install and set up the project:
 
 1. Clone the repository or download from GitHub web:
     ```bash
-    git clone https://github.com/sdkng44/dota2-match-history-parser.git
-    cd dota2-match-history-parser
+    git clone https://github.com/sdkng44/dota2-match-details-parser.git
+    cd dota2-match-details-parser
     ```
 
 2. Install dependencies:
