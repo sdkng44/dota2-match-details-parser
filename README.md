@@ -23,10 +23,9 @@ Follow these steps to install and set up the project:
     npm install
     ```
 
-3. Configure your `config.json` file with your `STEAM_API_KEY` and `STEAM_ID`:
+3. Configure your `config.json` file with your `STEAM_ID`:
     ```json
     {
-      "steamApiKey": "your_steam_api_key_here",
       "steamId": "your_steam_id_here"
     }
     ```
@@ -65,10 +64,9 @@ You can also install the package using npm:
     ```
 
 
-6. Configure your `config.json` file with your `STEAM_API_KEY` and `STEAM_ID`:
+6. Configure your `config.json` file with your `STEAM_ID`:
     ```json
     {
-      "steamApiKey": "your_steam_api_key_here",
       "steamId": "your_steam_id_here"
     }
     ```
