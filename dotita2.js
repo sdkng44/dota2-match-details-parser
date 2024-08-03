@@ -6,9 +6,8 @@ const Backend = require('i18next-fs-backend');
 const { select } = require('@inquirer/prompts');
 const createCsvWriter = require('csv-writer').createObjectCsvWriter;
 const config = JSON.parse(fs.readFileSync('config.json', 'utf8'));
-const steamApiKey = config.steamApiKey;
 const steamId = config.steamId;
-if (steamApiKey === 'your_steam_api_key_here' || steamId === 'your_steam_id_here') {
+if (steamId === 'your_steam_id_here') {
   console.error('Please provide your STEAM_API_KEY and STEAM_ID in the config.json file');
   process.exit(1);
 }
