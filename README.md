@@ -100,7 +100,7 @@ You can also install the package using npm:
 
 4. Remove the previous root installation directory:
     ```bash
-    rm -rf dota2-parser-installation
+    rm -rf ../dota2-parser-installation
     ```
 
 5. Install dependencies in the new directory:
@@ -118,7 +118,7 @@ You can also install the package using npm:
 
 	
 ## Usage
-To run the project, simply use the following command:
+To run the project, simply navigate to the installation directory and use the following command:
 ```bash
 npm start
 ```
