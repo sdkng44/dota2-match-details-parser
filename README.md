@@ -1,16 +1,30 @@
 # Dota 2 Match Details Parser
-
-## Description
 `dota2-match-details-parser` is a tool that allows you to download Dota 2 match details in CSV and JSON formats. It uses the OpenDota API to fetch detailed information about matches and provides multilingual support for various languages.
 
+## Documentation
+Documentation is available in multiple languages. Please select your preferred language:
+
+- [Español](docs/README_ES.md)
+- [中文](docs/README_ZH.md)
+- [Русский](docs/README_RU.md)
+- [Português](docs/README_PT.md)
+- [Français](docs/README_FR.md)
+- [Deutsch](docs/README_DE.md)
+- [한국어](docs/README_KO.md)
+- [日本語](docs/README_JA.md)
+- [Türkçe](docs/README_TR.md)
+- [Italiano](docs/README_IT.md)
+- [Polski](docs/README_PL.md)
+- [Tiếng Việt](docs/README_VI.md)
+- [ไทย](docs/README_TH.md)
+- [Bahasa Indonesia](docs/README_ID.md)
+- [العربية](docs/README_AR.md)
 
 ## Prerequisites
-- Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
-
+Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
 
 ## Important Notice
 To use this tool, your Steam ID profile must be set to public. Otherwise, the data cannot be retrieved.
-
 
 ## Installation
 You can install the project either by cloning the repository from GitHub or by using npm.
@@ -55,7 +69,7 @@ You can also install the package using npm:
 3. Create a new root directory and move the package contents outside the current root directory, then locate yourself in the new root directory:
     ```powershell
     mkdir ../dota2-match-details
-    Copy-Item -Recurse node_modules\dota2-match-details-parser\* ../dota2-match-details/
+    Copy-Item -Recurse node_modules/dota2-match-details-parser/* ../dota2-match-details/
     cd ../dota2-match-details
     ```
 
@@ -154,3 +168,6 @@ This project uses the OpenDota API, which has limitations on the number of reque
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
+
+## Changelog
+For detailed information on updates, please refer to the [CHANGELOG](CHANGELOG.md).
