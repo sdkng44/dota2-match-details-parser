@@ -207,12 +207,14 @@ askForLanguage().then(selectedLanguage => {
                   ...partida,
                   ...matchDetails,
                 };
+
+                const dissagregateMatch = dissagregateObject(matchWithDetails);
+
                 matchCounter++;
                 console.log(`${t('matchesDownloaded')} ${matchCounter} - ID: ${partida.match_id}`);
 
                 if (!inicializadoCSV) {
-                  let dissagregateMatch = dissagregateObject(matchWithDetails);
-                  encabezados = Array.from(new Set(Object.keys(dissagregateMatch)));
+                  encabezados = agregarColumnasFaltantes(Object.keys(dissagregateMatch));
                   csvWriter = initializeCsvWriter(encabezados);
                   inicializadoCSV = true;
                 }
@@ -224,6 +226,7 @@ askForLanguage().then(selectedLanguage => {
                 contadorLlamadas++;
               } else {
                 console.log(t('detailsNotObtained'));
+				await awaiting(2500);
               }
             }
           }
@@ -232,6 +235,33 @@ askForLanguage().then(selectedLanguage => {
           console.error(`${t('matchDetailsError')}: ${error.message}`);
           return console.log(`${t('apiLimitReached')}`);
         }
+      }
+
+      // INITIALIZE CSV COLUMNS - UPDATE
+      function agregarColumnasFaltantes(encabezados) {
+        for (let i = 0; i < 10; i++) {
+          const prefijo = `players.${i}.`;
+
+          const posAccountId = encabezados.indexOf(`${prefijo}player_slot`) + 1;
+          const posPersonaname = encabezados.indexOf(`${prefijo}item_neutral`) + 1;
+          const posName = encabezados.indexOf(`${prefijo}kills`) + 1;
+          const posLastLogin = encabezados.indexOf(`${prefijo}gold`) + 1;
+
+          if (!encabezados.includes(`${prefijo}account_id`)) {
+            encabezados.splice(posAccountId, 0, `${prefijo}account_id`);
+          }
+          if (!encabezados.includes(`${prefijo}personaname`)) {
+            encabezados.splice(posPersonaname, 0, `${prefijo}personaname`);
+          }
+          if (!encabezados.includes(`${prefijo}name`)) {
+            encabezados.splice(posName, 0, `${prefijo}name`);
+          }
+          if (!encabezados.includes(`${prefijo}last_login`)) {
+            encabezados.splice(posLastLogin, 0, `${prefijo}last_login`);
+          }
+        }
+
+        return encabezados;
       }
 
       //FUNCTION TO HANDLE NESTED ARRAYS
