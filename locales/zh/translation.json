@@ -1,0 +1,18 @@
+{
+  "steamId": "Steam ID",
+  "dotaAccountId": "Dota 2账号ID",
+  "matchDetails404": "错误404：未找到比赛详情",
+  "matchDetailsError": "下载比赛详情时出错",
+  "matchesDownloaded": "比赛已下载并处理",
+  "noMoreMatches": "没有更多比赛可下载。",
+  "apiLimitReached": "已达到每日API调用限制。关闭连接。",
+  "jsonCreated": "创建新的JSON文件。",
+  "matchSavedToJSON": "比赛已保存到partidas.json",
+  "matchSavedToCSV": "比赛已保存到partidas.csv",
+  "urlConstructed": "URL已构建",
+  "matchesObtained": "获得的比赛",
+  "matchesFiltered": "已过滤的比赛",
+  "waitingForRateLimit": "等待以避免超过每分钟的API调用。",
+  "detailsNotObtained": "未能获取比赛详情。",
+  "totalMatchesDownloaded": "总下载比赛数"
+}

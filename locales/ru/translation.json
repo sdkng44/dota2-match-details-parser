@@ -1,0 +1,18 @@
+{
+  "steamId": "Steam ID",
+  "dotaAccountId": "ID аккаунта Dota 2",
+  "matchDetails404": "Ошибка 404: детали матча не найдены",
+  "matchDetailsError": "Ошибка загрузки деталей матча",
+  "matchesDownloaded": "Матч загружен и обработан",
+  "noMoreMatches": "Больше матчей для загрузки нет.",
+  "apiLimitReached": "Достигнут дневной лимит вызовов API. Закрытие соединения.",
+  "jsonCreated": "Создание нового JSON файла.",
+  "matchSavedToJSON": "Матч сохранен в partidas.json",
+  "matchSavedToCSV": "Матч сохранен в partidas.csv",
+  "urlConstructed": "URL сконструирован",
+  "matchesObtained": "Полученные матчи",
+  "matchesFiltered": "Отфильтрованные матчи",
+  "waitingForRateLimit": "Ожидание, чтобы не превышать вызовов API в минуту.",
+  "detailsNotObtained": "Не удалось получить детали матча.",
+  "totalMatchesDownloaded": "Всего загружено матчей"
+}

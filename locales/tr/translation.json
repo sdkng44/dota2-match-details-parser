@@ -1,0 +1,18 @@
+{
+  "steamId": "Steam ID",
+  "dotaAccountId": "Dota 2 Hesap ID",
+  "matchDetails404": "Hata 404: Maç için ayrıntılar bulunamadı",
+  "matchDetailsError": "Maç ayrıntıları indirilirken hata oluştu",
+  "matchesDownloaded": "Maç indirildi ve işlendi",
+  "noMoreMatches": "İndirilecek daha fazla maç yok.",
+  "apiLimitReached": "API günlük çağrı limiti aşıldı. Bağlantı kapatılıyor.",
+  "jsonCreated": "Yeni JSON dosyası oluşturuluyor.",
+  "matchSavedToJSON": "Maç partidas.json'a kaydedildi",
+  "matchSavedToCSV": "Maç partidas.csv'ye kaydedildi",
+  "urlConstructed": "URL oluşturuldu",
+  "matchesObtained": "Elde edilen maçlar",
+  "matchesFiltered": "Filtrelenen maçlar",
+  "waitingForRateLimit": "Dakika başına API çağrı limitini aşmamak için bekleniyor.",
+  "detailsNotObtained": "Maç ayrıntıları alınamadı.",
+  "totalMatchesDownloaded": "Toplam indirilen maç sayısı"
+}

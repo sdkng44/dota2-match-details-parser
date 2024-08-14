@@ -1,0 +1,18 @@
+{
+  "steamId": "Steam ID",
+  "dotaAccountId": "ID บัญชี Dota 2",
+  "matchDetails404": "ข้อผิดพลาด 404: ไม่พบรายละเอียดการแข่งขัน",
+  "matchDetailsError": "เกิดข้อผิดพลาดในการดาวน์โหลดรายละเอียดการแข่งขัน",
+  "matchesDownloaded": "การแข่งขันที่ดาวน์โหลดและประมวลผลแล้ว",
+  "noMoreMatches": "ไม่มีการแข่งขันเพิ่มเติมให้ดาวน์โหลด",
+  "apiLimitReached": "ถึงขีดจำกัดการเรียก API รายวันแล้ว ปิดการเชื่อมต่อ",
+  "jsonCreated": "สร้างไฟล์ JSON ใหม่",
+  "matchSavedToJSON": "การแข่งขันที่บันทึกไว้ใน partidas.json",
+  "matchSavedToCSV": "การแข่งขันที่บันทึกไว้ใน partidas.csv",
+  "urlConstructed": "URL ที่สร้างขึ้น",
+  "matchesObtained": "การแข่งขันที่ได้รับ",
+  "matchesFiltered": "การแข่งขันที่กรอง",
+  "waitingForRateLimit": "กำลังรอเพื่อไม่ให้เกินขีดจำกัดการเรียก API ต่อนาที",
+  "detailsNotObtained": "ไม่สามารถรับรายละเอียดการแข่งขันได้",
+  "totalMatchesDownloaded": "การแข่งขันที่ดาวน์โหลดทั้งหมด"
+}

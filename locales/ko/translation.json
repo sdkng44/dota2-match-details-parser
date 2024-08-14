@@ -1,0 +1,18 @@
+{
+  "steamId": "Steam ID",
+  "dotaAccountId": "Dota 2 계정 ID",
+  "matchDetails404": "오류 404: 매치에 대한 세부 정보가 없습니다",
+  "matchDetailsError": "매치 세부 정보를 다운로드하는 중 오류가 발생했습니다",
+  "matchesDownloaded": "매치 다운로드 및 처리 완료",
+  "noMoreMatches": "다운로드할 매치가 더 이상 없습니다.",
+  "apiLimitReached": "일일 API 호출 한도에 도달했습니다. 연결을 닫습니다.",
+  "jsonCreated": "새 JSON 파일 생성 중.",
+  "matchSavedToJSON": "매치가 partidas.json에 저장되었습니다",
+  "matchSavedToCSV": "매치가 partidas.csv에 저장되었습니다",
+  "urlConstructed": "URL이 구성되었습니다",
+  "matchesObtained": "얻은 매치",
+  "matchesFiltered": "필터링된 매치",
+  "waitingForRateLimit": "분당 API 호출 한도를 초과하지 않도록 대기 중입니다.",
+  "detailsNotObtained": "매치 세부 정보를 얻을 수 없습니다.",
+  "totalMatchesDownloaded": "총 다운로드된 매치 수"
+}

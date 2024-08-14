@@ -1,0 +1,18 @@
+{
+  "steamId": "Steam ID",
+  "dotaAccountId": "ID Akun Dota 2",
+  "matchDetails404": "Kesalahan 404: Tidak ada detail pertandingan yang ditemukan",
+  "matchDetailsError": "Kesalahan saat mengunduh detail pertandingan",
+  "matchesDownloaded": "Pertandingan diunduh dan diproses",
+  "noMoreMatches": "Tidak ada pertandingan lain untuk diunduh.",
+  "apiLimitReached": "Batas panggilan API harian tercapai. Menutup koneksi.",
+  "jsonCreated": "Membuat file JSON baru.",
+  "matchSavedToJSON": "Pertandingan disimpan di partidas.json",
+  "matchSavedToCSV": "Pertandingan disimpan di partidas.csv",
+  "urlConstructed": "URL dibangun",
+  "matchesObtained": "Pertandingan yang diperoleh",
+  "matchesFiltered": "Pertandingan yang difilter",
+  "waitingForRateLimit": "Menunggu agar tidak melebihi batas panggilan API per menit.",
+  "detailsNotObtained": "Tidak dapat memperoleh detail pertandingan.",
+  "totalMatchesDownloaded": "Total pertandingan yang diunduh"
+}

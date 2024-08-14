@@ -1,0 +1,18 @@
+{
+  "steamId": "Steam ID",
+  "dotaAccountId": "ID tài khoản Dota 2",
+  "matchDetails404": "Lỗi 404: Không tìm thấy chi tiết trận đấu",
+  "matchDetailsError": "Lỗi khi tải xuống chi tiết trận đấu",
+  "matchesDownloaded": "Trận đấu đã được tải xuống và xử lý",
+  "noMoreMatches": "Không còn trận đấu nào để tải xuống.",
+  "apiLimitReached": "Đã đạt đến giới hạn cuộc gọi API hàng ngày. Đóng kết nối.",
+  "jsonCreated": "Tạo tệp JSON mới.",
+  "matchSavedToJSON": "Trận đấu đã được lưu trong partidas.json",
+  "matchSavedToCSV": "Trận đấu đã được lưu trong partidas.csv",
+  "urlConstructed": "URL đã được tạo",
+  "matchesObtained": "Trận đấu đã được lấy",
+  "matchesFiltered": "Trận đấu đã được lọc",
+  "waitingForRateLimit": "Đang chờ để không vượt quá giới hạn cuộc gọi API mỗi phút.",
+  "detailsNotObtained": "Không thể lấy chi tiết trận đấu.",
+  "totalMatchesDownloaded": "Tổng số trận đấu đã tải xuống"
+}

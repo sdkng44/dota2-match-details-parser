@@ -1,0 +1,18 @@
+{
+  "steamId": "Steam ID",
+  "dotaAccountId": "ID Account Dota 2",
+  "matchDetails404": "Errore 404: Dettagli della partita non trovati",
+  "matchDetailsError": "Errore durante il download dei dettagli della partita",
+  "matchesDownloaded": "Partita scaricata e elaborata",
+  "noMoreMatches": "Nessuna altra partita da scaricare.",
+  "apiLimitReached": "Limite giornaliero di chiamate API raggiunto. Chiusura connessione.",
+  "jsonCreated": "Creazione di un nuovo file JSON.",
+  "matchSavedToJSON": "Partita salvata in partidas.json",
+  "matchSavedToCSV": "Partita salvata in partidas.csv",
+  "urlConstructed": "URL costruito",
+  "matchesObtained": "Partite ottenute",
+  "matchesFiltered": "Partite filtrate",
+  "waitingForRateLimit": "Attesa per non superare il limite di chiamate API al minuto.",
+  "detailsNotObtained": "Dettagli della partita non ottenuti.",
+  "totalMatchesDownloaded": "Totale partite scaricate"
+}
